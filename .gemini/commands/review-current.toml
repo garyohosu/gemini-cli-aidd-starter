@@ -1,0 +1,20 @@
+description = "現在の変更内容を簡潔にレビューする入口コマンド"
+
+prompt = '''
+現在の変更内容と関連ドキュメントを確認し、簡潔にレビューしてください。
+
+優先観点:
+1. 前フェーズとの重大な矛盾
+2. 必須項目の欠落
+3. 明確な不具合
+4. Mermaid 構文エラー
+5. テスト観点不足
+
+出力形式:
+- Findings
+- Required fixes
+- Review status: APPROVED または REQUEST_CHANGES
+
+追加の確認対象:
+{{args}}
+'''
