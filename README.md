@@ -3,8 +3,8 @@
 この一式は、Gemini CLI で「計画 → 実装 → レビュー」を分離した AI駆動開発を始めるためのテンプレートです。
 
 ## 含まれるもの
-- `AGENTS.md`
-  - 設計思想を人間向けに説明する共通ガイド
+- `SPEC.md`
+  - プロジェクトの要件・仕様を記述するファイル
 - `GEMINI.md`
   - Gemini CLI が実際に参照するプロジェクト運用ルール
 - `.gemini/skills/start-skill/SKILL.md`
@@ -15,10 +15,6 @@
   - 機能追加の入口コマンド
 - `.gemini/commands/review-current.toml`
   - 現在の変更をレビューする入口コマンド
-- `note_draft.md`
-  - note 記事の下書きたたき台
-- `example_project_files.md`
-  - 推奨ファイル構成の例
 
 ## 使い方の流れ
 1. この一式をプロジェクトのルートに配置する
