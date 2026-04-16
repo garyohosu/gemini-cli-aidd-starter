@@ -27,6 +27,8 @@ description: SPEC.md を起点に、USECASE.md、SEQUENCE.md、CLASS.md、UI.md�
 - ASCII 図だけで済ませない
 - 後工程へ影響する曖昧点は `QandA.md` に残す
 - 軽微な表記ゆれはその場で直す
+- 各フェーズの確認では、会話で補足した情報を成果物に書き込まず前提にしていないかを確認する
+- 未確定事項を発見したら次フェーズへ進む前に `QandA.md` に記録する
 
 ## フェーズ0: 仕様確認
 やること:
@@ -48,6 +50,8 @@ description: SPEC.md を起点に、USECASE.md、SEQUENCE.md、CLASS.md、UI.md�
 - `SPEC.md` と矛盾していないか
 - 主要ユースケースが漏れていないか
 - Mermaid が壊れていないか
+- 会話の補足を前提にした記述がないか
+- 未確定事項は `QandA.md` に記録したか
 
 ## フェーズ2: SEQUENCE.md
 内容:
@@ -62,6 +66,8 @@ description: SPEC.md を起点に、USECASE.md、SEQUENCE.md、CLASS.md、UI.md�
 - `USECASE.md` とつながっているか
 - 処理順が破綻していないか
 - Mermaid が壊れていないか
+- 会話の補足を前提にした記述がないか
+- 未確定事項は `QandA.md` に記録したか
 
 ## フェーズ3: CLASS.md
 内容:
@@ -76,6 +82,8 @@ description: SPEC.md を起点に、USECASE.md、SEQUENCE.md、CLASS.md、UI.md�
 - `SEQUENCE.md` の責務と合っているか
 - 過剰設計になっていないか
 - Mermaid が壊れていないか
+- 会話の補足を前提にした記述がないか
+- 未確定事項は `QandA.md` に記録したか
 
 ## フェーズ4: UI.md
 内容:
@@ -94,6 +102,8 @@ description: SPEC.md を起点に、USECASE.md、SEQUENCE.md、CLASS.md、UI.md�
 - 主要フローが表現されているか
 - 例外状態が抜けていないか
 - Mermaid が壊れていないか
+- 会話の補足を前提にした記述がないか
+- 未確定事項は `QandA.md` に記録したか
 
 ## フェーズ5: TESTCASE.md
 内容:
@@ -109,6 +119,8 @@ description: SPEC.md を起点に、USECASE.md、SEQUENCE.md、CLASS.md、UI.md�
 確認:
 - 前フェーズの主要仕様をテストで拾えているか
 - 明らかな穴がないか
+- 会話の補足を前提にした記述がないか
+- 未確定事項は `QandA.md` に記録したか
 
 ## 各フェーズの出力形式
 - 生成または更新したファイル
